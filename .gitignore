@@ -1,0 +1,11 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IntelliJ Family IDE Settings
+.idea/
+
+# Output
+/dist/

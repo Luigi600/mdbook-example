@@ -1,0 +1,19 @@
+[book]
+authors = ["Luigi600"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Little Fighter 2"
+
+[build]
+build-dir = "dist"
+create-missing = false
+
+[output.html]
+additional-js = ["theme/search-engine.js", "theme/global.js", "theme/highlight-lf2.js"]
+additional-css = ["theme/highlight-lf2.css"]
+
+[output.html.playground]
+editable = false
+copy-js = true
+line-numbers = false

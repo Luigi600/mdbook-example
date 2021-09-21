@@ -1,0 +1,8 @@
+image: michaelfbryan/mdbook-docker-image:v0.4.4
+
+stages:
+  - build
+
+include:
+  # default pipeline + deployment when "development" branch on "preview" domain
+  - '/.gitlab/ci-cd/development/stage_build.yml'
